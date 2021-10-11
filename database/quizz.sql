@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 11, 2021 at 11:02 AM
+-- Generation Time: Oct 11, 2021 at 05:45 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.4.24
 
@@ -47,7 +47,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`u_id`, `username`, `f_name`, `l_name`, `email`, `phone`, `password`, `status`, `timesplayed`, `points`, `wallentLink`, `date`) VALUES
-(0, 'nextgenpixel', 'nextgen', 'pixel', 'nextgenpixel@gmail.com', '9874563210', 'fc163d5a3ebc8601b21cb9a405b98c2e', 1, '1', '17', '', '2021-10-11 09:01:52');
+(1, 'maseeraShaikh', 'maseera', 'shaikh', 'maseerashaikh27@gmail.com', '9920930921', '698f31e58975c9f1fca87af820cba630', 1, '3', '2', 'wuhwhsjsbsh', '2021-10-11 14:58:15'),
+(2, 'moinshaikh', 'moin', 'shaikh', 'moinshaikh@gmail.com', '3214569870', '13665e53884a3701029c71e8abebc685', 1, '0', '0', '', '2021-10-11 15:41:53');
 
 -- --------------------------------------------------------
 
@@ -56,6 +57,7 @@ INSERT INTO `users` (`u_id`, `username`, `f_name`, `l_name`, `email`, `phone`, `
 --
 
 CREATE TABLE `usersgames` (
+  `id` int(222) NOT NULL,
   `username` varchar(222) NOT NULL,
   `email` varchar(222) NOT NULL,
   `date` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
@@ -67,8 +69,10 @@ CREATE TABLE `usersgames` (
 -- Dumping data for table `usersgames`
 --
 
-INSERT INTO `usersgames` (`username`, `email`, `date`, `game`, `token`) VALUES
-('nextgenpixel', 'nextgenpixel@gmail.com', '2021-10-11 08:55:40', 'Anime', '1562932091');
+INSERT INTO `usersgames` (`id`, `username`, `email`, `date`, `game`, `token`) VALUES
+(1, 'maseeraShaikh', 'maseerashaikh27@gmail.com', '2021-10-11 12:06:22', 'Slangs', '9547158111'),
+(2, 'maseeraShaikh', 'maseerashaikh27@gmail.com', '2021-10-11 12:09:15', 'Movies', '9547158111'),
+(3, 'maseeraShaikh', 'maseerashaikh27@gmail.com', '2021-10-11 14:56:11', 'Series', '5157484350');
 
 --
 -- Indexes for dumped tables
@@ -79,6 +83,28 @@ INSERT INTO `usersgames` (`username`, `email`, `date`, `game`, `token`) VALUES
 --
 ALTER TABLE `users`
   ADD PRIMARY KEY (`u_id`);
+
+--
+-- Indexes for table `usersgames`
+--
+ALTER TABLE `usersgames`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `users`
+--
+ALTER TABLE `users`
+  MODIFY `u_id` int(222) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT for table `usersgames`
+--
+ALTER TABLE `usersgames`
+  MODIFY `id` int(222) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

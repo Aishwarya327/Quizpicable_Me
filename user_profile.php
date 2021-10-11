@@ -107,11 +107,11 @@ a {
   <div class="container">
   <img class="img-fluid mt-0" src="images/logi.png" alt="">
   
-    <label for="u_id"><b>u_id</b></label>
+    <label for="u_id"><b>User ID</b></label>
     <input type="text"  value=" <?php echo $_SESSION['u_id']?>"  name="u_id" id="u_id" readonly>
 
     <label for="text"><b>username</b></label>
-    <input type="text" name=" <?php echo $_SESSION['username']?>" value="nextgenpixel" id="text" readonly>
+    <input type="text" name="name" value=" <?php echo $_SESSION['username']?>" id="text" readonly>
 
     <label for="username"><b>Email</b></label>
     <input type="text"  value=" <?php echo $_SESSION['email']?>"  name="username" id="username" readonly>
