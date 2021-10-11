@@ -5,15 +5,16 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 body{
-   background: #01060a;
-    background-image: url('https://cdn2.vectorstock.com/i/1000x1000/59/06/neon-question-mark-frame-quiz-lighting-vector-24365906.jpg');
+    background: #01060a;
+    background-image: url('https://images.unsplash.com/photo-1511512578047-dfb367046420?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bmVvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-
 }
+
 ::selection{
     color: rgb(22, 21, 21);
     background: #007bff;
@@ -97,7 +98,7 @@ body{
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #c46969;
+    
     transition: all 0.3s ease;
 }
 .quiz_box{
@@ -321,7 +322,7 @@ footer button.show{
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #b14d63;
+    
     transition: all 0.3s ease;
 }
 .buttons button.restart{

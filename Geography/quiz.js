@@ -1,57 +1,57 @@
 let questions = [
     {
     numb: 1,
-    question: " Which movie by Amrish Puri features the famous dialogue “Mogambo khush hua”?",
-    answer: "Mr. India",
+    question: "What country are you in if you are hiking Mount Everest?",
+    answer: "Nepal",
     options: [
-      "Dilwale",
-      "Lagaan",
-      "Mr. India",
-      "Diljale"
+      "Nepal",
+      "India",
+      "China",
+      "Pakistan"
     ]
   },
     {
     numb: 2,
-    question: " What is Basanti’s horse called in the movie “Sholay",
-    answer: "Money heist",
+    question: "What country are you in if you are inside Taj Mahal?",
+    answer: "India",
     options: [
-      "Asha",
-      "Jay",
-      "Dhano",
-      "Rajkumari"
+      "Agra",
+      "Afghanistan",
+      "Iran",
+      "India"
     ]
   },
     {
     numb: 3,
-    question: "In film “zindagi na milengi dobara” , where did Three Friends Meet",
-    answer: "Spain",
+    question: "What country are you in if you are viewing Burj Khalifa?",
+    answer: "UAE",
     options: [
-      "Mumbai",
-      "Spain",
-      "Hongkong",
-      "Malasia"
+      "Saudi Arabia",
+      "UAE",
+      "Oman",
+      "Quwait"
     ]
   },
     {
     numb: 4,
-    question: "In which of following movie Actor “Shahrukh khan’ said a dialogue “Koi dhanda chota nahi hota, aur dhande se bada koi dharam nahi hota” ",
-    answer: "Raes",
+    question: "What country are you in if you are enjoying Niagara Falls?",
+    answer: "USA",
     options: [
-      "Dear Zindagi",
-      "Chennai Express",
-      "Don",
-      "Raes"
+      "Nigeria",
+      "Canada",
+      "Netherland",
+      "USA"
     ]
   },
     {
     numb: 5,
-    question: "In Hera Pheri, what was Paresh Rawal's character called?",
-    answer: "Devi Prasad",
+    question: "What country are you in if you are at the top of Eiffel Tower?",
+    answer: "France",
     options: [
-      "Raju",
-      "Shyam",
-      "Devi Prasad",
-      "Baburao Ganpatrao Apte"
+      "France",
+      "Italy",
+      "United Kingdom",
+      "Germany"
     ]
   },
 ];
@@ -249,3 +249,4 @@ function queCounter(index){
     let totalQueCounTag = '<span><p>'+ index +'</p> of <p>'+ questions.length +'</p> Questions</span>';
     bottom_ques_counter.innerHTML = totalQueCounTag;  //adding new span tag inside bottom_ques_counter
 }
+

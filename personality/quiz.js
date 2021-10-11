@@ -1,57 +1,57 @@
 let questions = [
     {
     numb: 1,
-    question: " Which movie by Amrish Puri features the famous dialogue “Mogambo khush hua”?",
-    answer: "Mr. India",
+    question: "Who played Captain Jack Sparrow?",
+    answer: "Johnny Depp",
     options: [
-      "Dilwale",
-      "Lagaan",
-      "Mr. India",
-      "Diljale"
+      "Johnny Depp",
+      "Geoffrey Rush",
+      "Craig Thomson",
+      "Mike Haberecht"
     ]
   },
     {
     numb: 2,
-    question: " What is Basanti’s horse called in the movie “Sholay",
-    answer: "Money heist",
+    question: "In American Music Awards 2019, who won the artist of the decade award?",
+    answer: "Taylor Swift",
     options: [
-      "Asha",
-      "Jay",
-      "Dhano",
-      "Rajkumari"
+      "Selena Gomes",
+      "Drake",
+      "Katy Perry",
+      "Taylor Swift"
     ]
   },
     {
     numb: 3,
-    question: "In film “zindagi na milengi dobara” , where did Three Friends Meet",
-    answer: "Spain",
+    question: "Who was WWE champion wrestler earlier and also starred and produced Baywatch?",
+    answer: "Dwayne Johnson",
     options: [
-      "Mumbai",
-      "Spain",
-      "Hongkong",
-      "Malasia"
+      "John Cena",
+      "Dwayne Johnson",
+      "Stone Cold Steve Austin",
+      "Hulk Hogan"
     ]
   },
     {
     numb: 4,
-    question: "In which of following movie Actor “Shahrukh khan’ said a dialogue “Koi dhanda chota nahi hota, aur dhande se bada koi dharam nahi hota” ",
-    answer: "Raes",
+    question: "Who created the famous anime Naruto?",
+    answer: "Masashi Kishimoto",
     options: [
-      "Dear Zindagi",
-      "Chennai Express",
-      "Don",
-      "Raes"
+      "Hajime Isayama",
+      "Eiichiro Oda",
+      "Tite kubo",
+      "Masashi Kishimoto"
     ]
   },
     {
     numb: 5,
-    question: "In Hera Pheri, what was Paresh Rawal's character called?",
-    answer: "Devi Prasad",
+    question: "Name the 16th president of the United States:",
+    answer: "Abraham Lincoln",
     options: [
-      "Raju",
-      "Shyam",
-      "Devi Prasad",
-      "Baburao Ganpatrao Apte"
+      "Abraham Lincoln",
+      "James Buchanan",
+      "Franklin Pierce",
+      "Andrew Johnson"
     ]
   },
 ];
@@ -249,3 +249,4 @@ function queCounter(index){
     let totalQueCounTag = '<span><p>'+ index +'</p> of <p>'+ questions.length +'</p> Questions</span>';
     bottom_ques_counter.innerHTML = totalQueCounTag;  //adding new span tag inside bottom_ques_counter
 }
+

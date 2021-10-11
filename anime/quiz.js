@@ -1,57 +1,57 @@
 let questions = [
     {
     numb: 1,
-    question: " Which movie by Amrish Puri features the famous dialogue “Mogambo khush hua”?",
-    answer: "Mr. India",
+    question: "In Dragon Ball Super, Goku is sent to destroy earth. What happened to make him change his ways?",
+    answer: "He bumped his head",
     options: [
-      "Dilwale",
-      "Lagaan",
-      "Mr. India",
-      "Diljale"
+      "He bumped his head",
+      "He just realzed it was quite mean",
+      "He couldn't be bothered in the end",
+      "No-one knows"
     ]
   },
     {
     numb: 2,
-    question: " What is Basanti’s horse called in the movie “Sholay",
-    answer: "Money heist",
+    question: "Which of these ISN'T a type of Pokemon?",
+    answer: "Rubber",
     options: [
-      "Asha",
-      "Jay",
-      "Dhano",
-      "Rajkumari"
+      "Water",
+      "Grass",
+      "Rubber",
+      "Poison"
     ]
   },
     {
     numb: 3,
-    question: "In film “zindagi na milengi dobara” , where did Three Friends Meet",
-    answer: "Spain",
+    question: "What kind of person in Naruto",
+    answer: "A Ninja",
     options: [
-      "Mumbai",
-      "Spain",
-      "Hongkong",
-      "Malasia"
+      "A Samurai",
+      "A Ninja",
+      "A Knight",
+      "A Tree Surgeon"
     ]
   },
     {
     numb: 4,
-    question: "In which of following movie Actor “Shahrukh khan’ said a dialogue “Koi dhanda chota nahi hota, aur dhande se bada koi dharam nahi hota” ",
-    answer: "Raes",
+    question: "Fill in the blank...Dragon ___ Z",
+    answer: "Ball",
     options: [
-      "Dear Zindagi",
-      "Chennai Express",
-      "Don",
-      "Raes"
+      "Beach",
+      "Mech",
+      "Film",
+      "Ball"
     ]
   },
     {
     numb: 5,
-    question: "In Hera Pheri, what was Paresh Rawal's character called?",
-    answer: "Devi Prasad",
+    question: "Winch of these names are not a character of JoJo’s Bizarre Adventure?",
+    answer: "Joan Kikasu",
     options: [
-      "Raju",
-      "Shyam",
-      "Devi Prasad",
-      "Baburao Ganpatrao Apte"
+      "Joan Kikasu",
+      "Josuke Higashikata",
+      "Jotaro Kujo",
+      "Joseph Joestar"
     ]
   },
 ];
@@ -249,3 +249,4 @@ function queCounter(index){
     let totalQueCounTag = '<span><p>'+ index +'</p> of <p>'+ questions.length +'</p> Questions</span>';
     bottom_ques_counter.innerHTML = totalQueCounTag;  //adding new span tag inside bottom_ques_counter
 }
+

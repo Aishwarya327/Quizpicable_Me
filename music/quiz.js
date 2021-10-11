@@ -1,57 +1,57 @@
 let questions = [
     {
     numb: 1,
-    question: " Which movie by Amrish Puri features the famous dialogue “Mogambo khush hua”?",
-    answer: "Mr. India",
+    question: "Name the song: Yeah, breakfast at Tiffany’s and bottles of bubbles, Girls with tattoos who like getting in trouble",
+    answer: "7 Rings",
     options: [
-      "Dilwale",
-      "Lagaan",
-      "Mr. India",
-      "Diljale"
+      "7 Rings",
+      "God Is A Woman",
+      "Positions",
+      "No Tears Left To Cry"
     ]
   },
     {
     numb: 2,
-    question: " What is Basanti’s horse called in the movie “Sholay",
-    answer: "Money heist",
+    question: "Candlelight and soul forever, A dream of you and me together, Say you believe it say you believe it",
+    answer: "Become 1",
     options: [
-      "Asha",
-      "Jay",
-      "Dhano",
-      "Rajkumari"
+      "Last Time Lover",
+      "Wanna Be",
+      "Say You'll Be There",
+      "Become 1"
     ]
   },
     {
     numb: 3,
-    question: "In film “zindagi na milengi dobara” , where did Three Friends Meet",
-    answer: "Spain",
+    question: "Girl, you know I want your love, Your love was handmade for somebody like me",
+    answer: "Shape Of You",
     options: [
-      "Mumbai",
-      "Spain",
-      "Hongkong",
-      "Malasia"
+      "Galway Girl",
+      "Shape Of You",
+      "Perfect",
+      "Happier"
     ]
   },
     {
     numb: 4,
-    question: "In which of following movie Actor “Shahrukh khan’ said a dialogue “Koi dhanda chota nahi hota, aur dhande se bada koi dharam nahi hota” ",
-    answer: "Raes",
+    question: "You used to call me on my cell phone, Late night when you need my love",
+    answer: "Hotline Bling",
     options: [
-      "Dear Zindagi",
-      "Chennai Express",
-      "Don",
-      "Raes"
+      "In My Feelings",
+      "One Dance",
+      "God's Plan",
+      "Hotline Bling"
     ]
   },
     {
     numb: 5,
-    question: "In Hera Pheri, what was Paresh Rawal's character called?",
-    answer: "Devi Prasad",
+    question: "I’m a savage, classy, bougie, ratchet...sassy, moody, nasty, acting stupid, what’s happening?",
+    answer: "Savage",
     options: [
-      "Raju",
-      "Shyam",
-      "Devi Prasad",
-      "Baburao Ganpatrao Apte"
+      "Savage",
+      "Hit My Phone",
+      "Crying In The Car",
+      "B.I.T.C.H"
     ]
   },
 ];
@@ -249,3 +249,4 @@ function queCounter(index){
     let totalQueCounTag = '<span><p>'+ index +'</p> of <p>'+ questions.length +'</p> Questions</span>';
     bottom_ques_counter.innerHTML = totalQueCounTag;  //adding new span tag inside bottom_ques_counter
 }
+

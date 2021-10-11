@@ -1,57 +1,57 @@
 let questions = [
     {
     numb: 1,
-    question: " Which movie by Amrish Puri features the famous dialogue “Mogambo khush hua”?",
-    answer: "Mr. India",
+    question: "Which of the following football club won FIFA Club World Cup 2020?",
+    answer: "Bayern Munich",
     options: [
-      "Dilwale",
-      "Lagaan",
-      "Mr. India",
-      "Diljale"
+      "Bayern Munich",
+      "Juventus F.C",
+      "Manchester United",
+      "FC Barcelona"
     ]
   },
     {
     numb: 2,
-    question: " What is Basanti’s horse called in the movie “Sholay",
-    answer: "Money heist",
+    question: "What is the full form of IPL",
+    answer: "Indian Premier League",
     options: [
-      "Asha",
-      "Jay",
-      "Dhano",
-      "Rajkumari"
+      "Indo-Pakistan League",
+      "International Premier League",
+      "Indian Players League",
+      "Indian Premier League"
     ]
   },
     {
     numb: 3,
-    question: "In film “zindagi na milengi dobara” , where did Three Friends Meet",
-    answer: "Spain",
+    question: "Which ahlete scored 1st position in the London Marathon held on 4th October, 2020",
+    answer: "Shura Kitata",
     options: [
-      "Mumbai",
-      "Spain",
-      "Hongkong",
-      "Malasia"
+      "Eliud Kipchoge",
+      "Shura Kitata",
+      "Vincent Kipchumba",
+      "Sisay Lemma"
     ]
   },
     {
     numb: 4,
-    question: "In which of following movie Actor “Shahrukh khan’ said a dialogue “Koi dhanda chota nahi hota, aur dhande se bada koi dharam nahi hota” ",
-    answer: "Raes",
+    question: "Where in Pakistan the world's highest polp ground is located?",
+    answer: "Shandur",
     options: [
-      "Dear Zindagi",
-      "Chennai Express",
-      "Don",
-      "Raes"
+      "Kasur",
+      "Attock",
+      "Okara",
+      "Shandur"
     ]
   },
     {
     numb: 5,
-    question: "In Hera Pheri, what was Paresh Rawal's character called?",
-    answer: "Devi Prasad",
+    question: "Who won BBC's Sports Personality of the Year prize 2020",
+    answer: "Lewis Hamilton",
     options: [
-      "Raju",
-      "Shyam",
-      "Devi Prasad",
-      "Baburao Ganpatrao Apte"
+      "Lewis Hamilton",
+      "Michael Schumacher",
+      "Jordan Henderson",
+      "Hollie Doyle"
     ]
   },
 ];
@@ -249,3 +249,4 @@ function queCounter(index){
     let totalQueCounTag = '<span><p>'+ index +'</p> of <p>'+ questions.length +'</p> Questions</span>';
     bottom_ques_counter.innerHTML = totalQueCounTag;  //adding new span tag inside bottom_ques_counter
 }
+
