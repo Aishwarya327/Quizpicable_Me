@@ -100,7 +100,15 @@ if(isset($_POST['submit'] ))
     <link href="css/animsition.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet"> </head>
+    <link href="css/style.css" rel="stylesheet"> 
+   
+    <style>
+       body
+      {
+         background-image: url('https://cdn.lifestyleasia.com/wp-content/uploads/sites/3/2021/03/31122336/ilse-orsel-I0238w5OesU-unsplash-scaled.jpg');
+      }
+      </style>
+   </head>
 <body>
      
          <!--header starts-->
@@ -109,7 +117,7 @@ if(isset($_POST['submit'] ))
             <nav class="navbar navbar-light">
                <div class="container">
                   <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">&#9776;</button>
-                  <a class="navbar-brand" href="index.php"> <img class="img-rounded" src="https://www.bing.com/th?id=OIP.2FKaqXMTcftce06eLWibGQHaE_&w=161&h=105&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2" alt="" height="50%" width="50%"> </a>
+                  <a class="navbar-brand" href="index.php"> <img class="img-rounded" src="images/logo.png" alt="" height="75" width="75"> </a>
                   <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                      <ul class="nav navbar-nav">
 							
@@ -145,7 +153,8 @@ if(isset($_POST['submit'] ))
                      <!-- REGISTER -->
                      <div class="col-md-8">
                         <div class="widget">
-                           <div class="widget-body">
+                           <div class="widget-body"> 
+                              
               
 							  <form action="" method="post" enctype="multipart/form-data">
                                  <div class="row">
