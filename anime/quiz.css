@@ -5,19 +5,18 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
 body{
-    background: #01060a;
+   background: #01060a;
     background-image: url('https://images.unsplash.com/photo-1511512578047-dfb367046420?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bmVvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-}
 
+}
 ::selection{
     color: rgb(22, 21, 21);
-    background: #007bff;
+    background: #396ca1;
 }
 .start_btn,
 .info_box,
@@ -46,12 +45,12 @@ body{
     outline: none;
     border: none;
     border-radius: 10px;
-    background: rgb(224, 185, 185);
+    background: rgb(129, 183, 219);
     cursor: pointer;
 }
 .info_box{
     width: 540px;
-    background: rgb(209, 140, 140);
+    background: rgb(76, 169, 212);
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
@@ -61,7 +60,7 @@ body{
 .info_box .info-title{
     height: 60px;
     width: 100%;
-    border-bottom: 1px solid rgb(12, 11, 11);
+    border-bottom: 1px solid rgb(167, 199, 236);
     display: flex;
     align-items: center;
     padding: 0 30px;
@@ -86,7 +85,7 @@ body{
     align-items: center;
     justify-content: flex-end;
     padding: 0 30px;
-    border-top: 1px solid rgb(8, 8, 8);
+    border-top: 1px solid rgb(84, 106, 230);
 }
 .info_box .buttons button{
     margin: 0 5px;
@@ -98,12 +97,12 @@ body{
     border: none;
     outline: none;
     border-radius: 5px;
-    
+    border: 1px solid #0e0e0f;
     transition: all 0.3s ease;
 }
 .quiz_box{
     width: 550px;
-    background: rgb(177, 95, 95);
+    background: rgb(77, 128, 196);
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
@@ -115,7 +114,7 @@ body{
     z-index: 2;
     height: 70px;
     padding: 0 30px;
-    background: rgb(150, 86, 86);
+    background: rgb(32, 40, 87);
     border-radius: 5px 5px 0 0;
     display: flex;
     align-items: center;
@@ -165,7 +164,7 @@ body{
 }
 section{
     padding: 25px 30px 20px 30px;
-    background: rgb(143, 117, 117);
+    background: rgb(91, 135, 172);
 }
 section .que_text{
     font-size: 25px;
@@ -276,7 +275,7 @@ footer button.show{
     transform: scale(1);
 }
 .result_box{
-    background: rgb(133, 78, 78);
+    background: rgb(72, 104, 192);
     border-radius: 5px;
     display: flex;
     padding: 25px 30px;
@@ -291,7 +290,7 @@ footer button.show{
 }
 .result_box .icon{
     font-size: 100px;
-    color: #a12525;
+    color: #111010;
     margin-bottom: 10px;
 }
 .result_box .complete_text{
@@ -322,7 +321,7 @@ footer button.show{
     border: none;
     outline: none;
     border-radius: 5px;
-    
+    border: 1px solid #b14d63;
     transition: all 0.3s ease;
 }
 .buttons button.restart{
