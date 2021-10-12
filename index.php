@@ -133,7 +133,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       <!-- Navbar brand -->
       <a class="navbar-brand mt-2 mt-lg-0" href="#">
         <img
-          src="https://www.bing.com/th?id=OIP.2FKaqXMTcftce06eLWibGQHaE_&w=161&h=105&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2"
+          src="https://drive.google.com/file/d/1jVDUGdRW2WYQz44rQ68qXyTbwwrPMxNl/view?usp=sharing"
           height="15"
           alt=""
           loading="lazy"
