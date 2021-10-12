@@ -120,7 +120,7 @@ a {
 	  <span style="color:red;"><?php echo $message; ?></span> 
    <span style="color:green;"></span>
 
-  <form method="post">
+<form method="post">
   <div class="container">
   <img class="img-fluid mt-0" src="images/logi.png" alt="">
   <h2>Add Wallet Link</h2><br>
@@ -128,17 +128,26 @@ a {
   <label for="exampleInputEmail1">Wallet Link</label>
   <input type="textbox" name="wallet"  class="form-control mt-1" style="color:black"/>
   <label for="exampleInputEmail1">Points</label>
-  <input type="textbox" name="points" value="<?php echo $_SESSION['points']?>" class="form-control mt-1" style="color:black" readonly/>
+  <?php
 
+ 
+$loggedin=$_SESSION['username'];
+
+$ret=mysqli_query($db,"select * from `users` where username='$loggedin'");
+while ($row=mysqli_fetch_array($ret)) {
+
+?>
+  <input type="textbox" name="points" value="<?php  echo $row['points'];?>" class="form-control mt-1" style="color:black" readonly/>
+  <?php 
+}?>
 <input type="submit" name="submit"  class="btn btn-success btn-block mt-1" style="color:black" />
    
     <a type="button" class="btn btn-danger btn-block" href="index.php">Home</a>
     <?php echo $success; ?>
   </div>
-
 </form>
   
-  </div>
+</div>
 
 </div>
 
