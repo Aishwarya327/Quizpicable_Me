@@ -133,7 +133,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       <!-- Navbar brand -->
       <a class="navbar-brand mt-2 mt-lg-0" href="#">
         <img
-          src="https://drive.google.com/file/d/1jVDUGdRW2WYQz44rQ68qXyTbwwrPMxNl/view?usp=sharing"
+          src="file:///D:/Hackathon/2.png"
           height="15"
           alt=""
           loading="lazy"
