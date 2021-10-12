@@ -34,6 +34,10 @@
 .container {
   padding: 16px;
 }
+body
+{
+background-image: url('https://cdn.lifestyleasia.com/wp-content/uploads/sites/3/2021/03/31122336/ilse-orsel-I0238w5OesU-unsplash-scaled.jpg');
+}
 
 /* Full-width input fields */
 input[type=text], input[type=password] {
