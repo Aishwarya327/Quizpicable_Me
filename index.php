@@ -133,7 +133,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       <!-- Navbar brand -->
       <a class="navbar-brand mt-2 mt-lg-0" href="#">
         <img
-          src="https://www.canva.com/design/DAEsl1Dn-2A/cvXOdvUdSbIS2Vsep2ZB2A/view?utm_content=DAEsl1Dn-2A&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+          src="https://drive.google.com/file/d/1jVDUGdRW2WYQz44rQ68qXyTbwwrPMxNl/view?usp=sharing"
           height="15"
           alt=""
           loading="lazy"
