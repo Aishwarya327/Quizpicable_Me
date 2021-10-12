@@ -167,7 +167,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
         aria-expanded="false"
       >
         <img
-          src="images/logo.png"
+          src="images/logo.jpeg"
           class="rounded-circle"
           height="25"
           alt=""
