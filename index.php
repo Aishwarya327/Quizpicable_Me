@@ -133,7 +133,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       <!-- Navbar brand -->
       <a class="navbar-brand mt-2 mt-lg-0" href="#">
         <img
-          src="file:///D:/Hackathon/2.png"
+          src="https://www.canva.com/design/DAEsl1Dn-2A/cvXOdvUdSbIS2Vsep2ZB2A/view?utm_content=DAEsl1Dn-2A&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
           height="15"
           alt=""
           loading="lazy"
@@ -165,7 +165,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
         aria-expanded="false"
       >
         <img
-          src="https://www.bing.com/th?id=OIP.2FKaqXMTcftce06eLWibGQHaE_&w=161&h=105&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2"
+          src="https://www.canva.com/design/DAEsl1Dn-2A/cvXOdvUdSbIS2Vsep2ZB2A/view?utm_content=DAEsl1Dn-2A&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
           class="rounded-circle"
           height="25"
           alt=""
