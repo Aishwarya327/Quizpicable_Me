@@ -101,16 +101,9 @@ if(isset($_POST['submit'] ))
     <link href="css/animate.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet"> 
-   
-    <style>
-       body
-      {
-         background-image: url('https://cdn.lifestyleasia.com/wp-content/uploads/sites/3/2021/03/31122336/ilse-orsel-I0238w5OesU-unsplash-scaled.jpg');
-      }
-      </style>
    </head>
 <body>
-     
+      <div style="background-image: url('https://cdn.lifestyleasia.com/wp-content/uploads/sites/3/2021/03/31122336/ilse-orsel-I0238w5OesU-unsplash-scaled.jpg');">
          <!--header starts-->
          <header id="header" class="header-scroll top-header headrom">
             <!-- .navbar -->
