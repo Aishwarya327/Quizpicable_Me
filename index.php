@@ -133,12 +133,14 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       <!-- Navbar brand -->
       <a class="navbar-brand mt-2 mt-lg-0" href="#">
         <img
-          src="file:///D:/Hackathon/2.png"
-          height="15"
+          src=""
+          height="35"
           alt=""
           loading="lazy"
         />
       </a>
+      <span class="text-white">Quizpicable Me</span>
+      
       <!-- Left links -->
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
@@ -165,7 +167,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
         aria-expanded="false"
       >
         <img
-          src="https://www.bing.com/th?id=OIP.2FKaqXMTcftce06eLWibGQHaE_&w=161&h=105&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2"
+          src="images/logo.png"
           class="rounded-circle"
           height="25"
           alt=""
@@ -192,9 +194,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   </div>
   <!-- Container wrapper -->
 </nav>
+
             <!-- /.navbar -->
          </header>
-
+<div class="container m-3"></div>
 <div class="container">
          <div class="w3-row-padding ">
     <div class="w3-third w3-container w3-margin-bottom">
